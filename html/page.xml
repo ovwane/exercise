@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+    <!--locator of page map info -->
+
+    <page pageName="login">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[1]/div[2]/input'>账号</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>密码</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>登录</locator>
+    </page>
+    <page pageName="login1">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[1]/div[2]/input'>1</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>2</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>3</locator>
+    </page>
+    <page pageName="login2">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[1]/div[2]/input'>1</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>2</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>3</locator>
+    </page>
+    <page pageName="login3">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[1]/div[2]/input'>1</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>2</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>3</locator>
+    </page>
+    <page pageName="login4">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[1]/div[2]/input'>1</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>2</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>3</locator>
+    </page>
+    <page pageName="login5">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[1]/div[2]/input'>1</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>2</locator>
+        <locator type="xpath" timeOut="3" value='//*[@id="loginForm"]/div[1]/div[2]/div[2]/input'>3</locator>
+    </page>
+</map>
