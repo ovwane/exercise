@@ -32,21 +32,16 @@ while True:
     print('获取页面')
     for i in b:
         try:
-            print(i)
             driver.find_element_by_android_uiautomator('new UiSelector().text("%s")' % i).click()
             b = driver.find_elements_by_name('领取红包')
             driver.find_element_by_android_uiautomator('new UiSelector().text("领取红包")').click()
-            print(b)
             try:
                 driver.find_element_by_class_name('android.widget.Button').click()
             except:
                 driver.find_element_by_accessibility_id('返回').click()
                 driver.find_element_by_accessibility_id('返回').click()
-            print(1)
             WebDriverWait(driver, 20000).until(EC.presence_of_element_located((By.ID, 'com.tencent.mm:id/bz0')))
-            print(2)
             driver.find_element_by_accessibility_id('返回').click()
-            print(3)
             driver.find_element_by_accessibility_id('返回').click()
             print('领取红包')
         except Exception as e:
