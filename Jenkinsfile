@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         retry(count: 3) {
-          echo 'hello'
+          echo 'python ---verioodf'
         }
 
       }
