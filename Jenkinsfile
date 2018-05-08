@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        timeout(time: 3) {
-          echo 'build'
+        retry(count: 3) {
+          echo 'hello'
         }
 
       }
